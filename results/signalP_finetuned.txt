@@ -1,0 +1,9 @@
+Test-set performance:
+               # records       AUC
+Model seq len                     
+512                 4152  0.995726
+All                 4152  0.995726
+Confusion matrix:
+      0    1
+0  3444   34
+1    29  645

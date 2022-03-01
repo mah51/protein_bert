@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import sys
 
 from .shared_utils.util import log
 from .tokenization import ADDED_TOKENS_PER_SEQ
@@ -70,7 +71,9 @@ def evaluate_by_len(model_generator, input_encoder, output_spec, seqs, raw_Y, st
     assert model_generator.optimizer_weights is None
     
     dataset = pd.DataFrame({'seq': seqs, 'raw_y': raw_Y})
-        
+
+    print(dataset.head())
+
     results = []
     results_names = []
     y_trues = []

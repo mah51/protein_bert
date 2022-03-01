@@ -1,0 +1,16 @@
+[2022_02_09-17:57:59] *** Training-set performance: ***
+               # records  Spearman's rank correlation
+Model seq len                                        
+512                53613                      0.72901
+All                53613                      0.72901
+[2022_02_09-17:59:10] *** Validation-set performance: ***
+               # records  Spearman's rank correlation
+Model seq len                                        
+512                 2512                     0.756364
+All                 2512                     0.756364
+[2022_02_09-17:59:15] *** Test-set performance: ***
+               # records  Spearman's rank correlation
+Model seq len                                        
+512                12851                     0.742843
+All                12851                     0.742843
+[2022_02_09-17:59:34] Done.

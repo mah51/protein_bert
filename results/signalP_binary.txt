@@ -1,0 +1,28 @@
+[2022_02_09-16:49:09] *** Training-set performance: ***
+               # records       AUC
+Model seq len                     
+512                14945  0.999743
+All                14945  0.999743
+[2022_02_09-16:49:31] Confusion matrix:
+       0     1
+0  12486    31
+1     30  2398
+[2022_02_09-16:49:31] *** Validation-set performance: ***
+               # records       AUC
+Model seq len                     
+512                 1661  0.992971
+All                 1661  0.992971
+[2022_02_09-16:49:35] Confusion matrix:
+      0    1
+0  1377   14
+1     6  264
+[2022_02_09-16:49:35] *** Test-set performance: ***
+               # records       AUC
+Model seq len                     
+512                 4152  0.995684
+All                 4152  0.995684
+[2022_02_09-16:49:43] Confusion matrix:
+      0    1
+0  3445   33
+1    31  643
+[2022_02_09-16:49:43] Done.

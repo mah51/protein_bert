@@ -2,3 +2,5 @@
 /dist/
 /build/
 /*.egg-info
+sequence_dump_go.pkl
+confusion_matrix_dump.pkl

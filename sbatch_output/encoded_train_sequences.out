@@ -1,0 +1,35 @@
+2022-02-28 17:17:52.145225: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+There are 69974 sequences
+before pretrained
+before run benchmark
+========== go_terms ==========
+[2022_02_28-17:18:04] Output type: categorical sequence
+[2022_02_28-17:18:04] 62976 training set records, 6998 validation set records, 0 test set records.
+[2022_02_28-17:18:04] 5194 unique lebels.
+[2022_02_28-17:18:04] Training set: Filtered out 0 of 62976 (0.0%) records of lengths exceeding 150.
+[2022_02_28-17:18:06] Validation set: Filtered out 0 of 6998 (0.0%) records of lengths exceeding 150.
+([array([[23, 10,  3, ..., 25, 25, 25],
+       [23, 10, 15, ..., 25, 25, 25],
+       [23, 10,  3, ..., 25, 25, 25],
+       ...,
+       [23, 10,  0, ..., 25, 25, 25],
+       [23,  5,  7, ..., 25, 25, 25],
+       [23, 10,  8, ..., 25, 25, 25]], dtype=int32), array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], dtype=int8)], array([[   0,  535,    9, ...,    0,    0,    0],
+       [   0,  757, 1425, ...,    0,    0,    0],
+       [   0, 3460, 3475, ...,    0,    0,    0],
+       ...,
+       [   0, 3132, 2046, ...,    0,    0,    0],
+       [   0,  718, 4714, ...,    0,    0,    0],
+       [   0,  718, 4714, ...,    0,    0,    0]]), array([[0., 1., 1., ..., 0., 0., 0.],
+       [0., 1., 1., ..., 0., 0., 0.],
+       [0., 1., 1., ..., 0., 0., 0.],
+       ...,
+       [0., 1., 1., ..., 0., 0., 0.],
+       [0., 1., 1., ..., 0., 0., 0.],
+       [0., 1., 1., ..., 0., 0., 0.]]))
